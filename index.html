@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Filter And Seach apply</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="search product name here..">
+            <button id="search">Search</button>
+        </div>
+    <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('topwear')" >TopWear</button>
+        <button class="button-value" onclick="filterProduct('bootomwear')">BootomWear</button>
+        <button class="button-value" onclick="filterProduct('jacket')">Jacket</button>
+        <button class="button-value" onclick="filterProduct('watch')">Watch</button>
+    </div>
+    <div id="products"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
